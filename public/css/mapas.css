@@ -3,40 +3,86 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+#quadro_mapa{
+    display: flex;
+  
+    margin-top: 60px;
+   
+
+}
 
 #map { 
-    height: 100vh;
-    position: relative;
+    height: 800px;
+    width: 60vw;
+    margin: 0px 10px 0 210px;
     z-index: 0;
+    align-items: center;
+    
 }
-#quadroLegenda{
-    background-color: rgba(255,255,255,0.9);
-    height: 200px;
-    width: 300px;
-    position: absolute;
-    z-index: 10;
-    text-align: center;
-    bottom: 2px;
-    left: 1rem;
-} 
+
 h1{
     color: black;
 }
-.descricao {
-    display: grid;
-    grid-template-columns: 30px 1fr;
-  
-    
-    text-align: center;
+
+img{
+    margin-left: 2px;
 }
-#blue{
-    background-color: #3a8ece;
-    height: 50px;
+
+p{
+    margin-top: 2px;
+    float: right;
+}
+
+.cards{
+ margin-left: 210px;
+}
+
+.top_content{
+    height: 200px;
+    width: 80vw;
     
+}
+
+#tester{
+ 
+}
+
+.card{
+    width: 300px;
+    height: 150px;
+    margin: 100px 20px 0 0;
    
 }
-#green{
-    background-color: green;
+
+.card_red{
+    background-color: #DE3647;
+    text-align: center;
+}
+
+.card_orange{
+    background-color: #f5883c;
+    text-align: center;
+}
+
+.card_green{
+    background-color: #59aa4a;
+    text-align: center;
+}
+
+.card h5{
+    color: white;
+    font-weight: bold;
+}
+
+
+i{
+   
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 10px;
     
-    
+}
+
+.text__data__card{
+    margin-left:15px;
+    font-size: 80px;
 }
