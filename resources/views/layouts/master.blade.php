@@ -36,16 +36,17 @@
             <a href="#"><span class="fa fa-home"></span> Home</a>
           </li>
           <li>
-              <a href="#"><span class="fa fa-user"></span> About</a>
+              <a href="#"><span class="fa fa-bar-chart"></span> Dashboard</a>
+              	
           </li>
           <li>
-            <a href="#"><span class="fa fa-sticky-note"></span> Blog</a>
+            <a href="#"><span class="fa fa-file-text"></span> Relatórios</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-cogs"></span> Services</a>
+            <a href="#"><span class="fa fa-cogs"></span> Config</a>
           </li>
           <li>
-            <a href="#"><span class="fa fa-paper-plane"></span> Contacts</a>
+            <a href="#"><span class="fa fa-user"></span> Meu Perfil</a>
           </li>
         </ul>
     	</nav>

@@ -5,19 +5,14 @@ body {
 
 #quadro_mapa{
     display: flex;
-  
     margin-top: 60px;
-   
-
 }
 
 #map { 
     height: 800px;
     width: 60vw;
-    margin: 0px 10px 0 210px;
     z-index: 0;
     align-items: center;
-    
 }
 
 h1{
@@ -34,13 +29,12 @@ p{
 }
 
 .cards{
- margin-left: 210px;
+
 }
 
 .top_content{
     height: 200px;
     width: 80vw;
-    
 }
 
 #tester{
@@ -50,8 +44,7 @@ p{
 .card{
     width: 300px;
     height: 150px;
-    margin: 100px 20px 0 0;
-   
+    margin: 100px 30px 0 0;
 }
 
 .card_red{
@@ -76,10 +69,8 @@ p{
 
 
 i{
-   
     color: rgba(255, 255, 255, 0.4);
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 }
 
 .text__data__card{
