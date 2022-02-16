@@ -106,6 +106,7 @@ var data = [{
 var layout = {
   height: 400,
   width: 500,
+  padding: 10,
   paper_bgcolor: "rgb(240, 246, 246)", 
 
 };
